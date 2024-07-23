@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoMarket</title>
+    <!-- Main File Css -->
+    <link rel="stylesheet" href="./style/index.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/images/logo.jpg" alt="logo">
+            </div>
+            <div class="bars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li data-section=".home">Home</li>
+                    <li data-section=".products">Products</li>
+                    <li data-section=".about">About</li>
+                    <li data-section=".contact">Contact</li>
+                </ul>
+                <div class="profile">
+                    <div class="bag">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>0</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="pass-account">
+                        <div class="profile">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="name">
+                            <h4>Hello</h4>
+                            <h3>Mahmoud</h3>
+                        </div>
+                        <h3>Change Password</h3>
+                        <div class="inputs">
+                            <input type="text" placeholder="Current Password" id="cur-pas">
+                            <p class="uncorrect"></p>
+                            <input type="text" placeholder="New Password" id="new-pas">
+                            <button id="send">Send</button>
+                            <button id="close">Close</button>
+                            <button id="log-out">Log Out</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Home -->
+    <section class="home">
+        <div class="container">
+            <div class="content">
+                <div class="img-slider">
+                    <div class="slider">
+                        <img src="./assets/images/antr-1.jpg" alt="">
+                        <img src="./assets/images/playarm-1.jpg" alt="">
+                        <img src="./assets/images/120.jpg" alt="">
+                        <img src="./assets/images/banred-2.jpg" alt="">
+                        <img src="./assets/images/white2.jpg" alt="">
+                        <img src="./assets/images/WHeVL9H_d.jpg" alt="">
+                        <img src="./assets/images/smart-1.jpg" alt="">
+                        <img src="./assets/images/qNOjJje_d.jpg" alt="">
+                        <img src="./assets/images/JktHE1C_d.jpg" alt="">
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="search">
+                        <button>Search</button>
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <div class="content">
+                        <div class="col">
+                            <ul>
+                                <li>Clothes</li>
+                                <li>Furniture</li>
+                                <li>Electronics</li>
+                                <li>Choes</li>
+                                <li>Glass</li>
+                                <li>Books</li>
+                                <li>Medicine</li>
+                                <li>Watches</li>
+                                <li>Miscellaneous</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>The most profitable</h3>
+                            <img src="./assets/images/playarm-1.jpg" alt="">
+                            <img src="./assets/images/120.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <img src="./assets/images/120.jpg" alt="">
+                <img src="./assets/images/playarm-1.jpg" alt="">
+                <img src="./assets/images/white2.jpg" alt="">
+                <img src="./assets/images/banred-2.jpg" alt="">
+                <img src="./assets/images/WHeVL9H_d.jpg" alt="">
+                <img src="./assets/images/JktHE1C_d.jpg" alt="">
+                <img src="./assets/images/cap-1.jpg" alt="">
+                <img src="./assets/images/lap-1.jpg" alt="">
+                <img src="./assets/images/glass-1.jpg" alt="">
+                <img src="./assets/images/eatr-1.jpg" alt="">
+                <img src="./assets/images/phone-1.jpg" alt="">
+                <img src="./assets/images/short.jpg" alt="">
+                <a href="#">View All</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Home -->
+    <!-- Start Products -->
+    <section class="products">
+        <div class="container">
+            <div class="special-heading">
+                <h2>Products</h2>
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="products-box">
+                <div class="product-card">
+                </div>
+                <div class="menue">
+                    <ul>
+                        <li class="active" data-cat=".card">All</li>
+                        <li data-cat=".Clothes">Clothes</li>
+                        <li data-cat=".Furniture">Furniture</li>
+                        <li data-cat=".Electronics">Electronics</li>
+                        <li data-cat=".Choes">Choes</li>
+                        <li data-cat=".Miscellaneous">Miscellaneous</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="products-details">
+            </div>
+        </div>
+    </section>
+    <!-- End Products -->
+    <!-- Start About -->
+    <div class="about">
+        <div class="container">
+            <div class="special-heading">
+                <h2>About</h2>
+            </div>
+            <div class="content">
+                <div class="text">
+                    <div class="info">
+                        <h3>About Developer</h3>
+                        <p>Hello there! I'm <span>Mahmoud Mkhemar</span>, the passionate developer behind this website. With a keen eye for detail and a love for crafting seamless digital experiences, I set out to create a unique and user-friendly online shopping platform.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Technologies Used</h3>
+                        <p>In the development of this website, I've harnessed the power of the following Javascript and technologies to create a modern,</p>
+                        <div class="icon">
+                            <i style="color: orangered;" class="fa-brands fa-html5"></i>
+                            <i style="color: blue;" class="fa-brands fa-css3"></i>
+                            <i style="color: yellow;" class="fa-brands fa-js"></i>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>Let's Connect</h3>
+                        <p>Explore the website, discover the offerings, and if you have any questions or suggestions, I'm here to listen. Your journey through this online shopping experience is as important to me as it is to you. Happy exploring!</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="./assets/images/6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Contact -->
+    <div class="contact">
+        <div class="container">
+            <div class="special-heading">
+                <h2>Contact</h2>
+            </div>
+            <div class="form">
+                <div class="inputs">
+                    <input type="text" placeholder="Frist Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="inputs">
+                    <input type="email" placeholder="Enter Your Email">
+                    <input type="text" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="mesg">
+                    <textarea name="" id="t-area"></textarea>
+    
+                </div>
+                <button>Send</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="col">
+                <div class="title">
+                    <h3>Products</h3>
+                </div>
+                <ul>
+                    <li>Clothes</li>
+                    <li>Furniture</li>
+                    <li>Choes</li>
+                    <li>Miscellaneous</li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="title">
+                    <h3>Resources</h3>
+                </div>
+                <ul>
+                    <li>Documentation</li>
+                    <li>Support Center</li>
+                    <li>blog</li>
+                    <li>Partners</li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="title">
+                    <h3>Company</h3>
+                </div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>contact</li>
+                    <li>Products</li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="title">
+                    <h3>Subscribe</h3>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod incidunt debitis suscipit saepe in animi, quaerat ex, tempora officiis</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <div class="btn-scroller">
+        <button class="button">
+            <svg class="svgIcon" viewBox="0 0 384 512">
+                <path
+                d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+                ></path>
+            </svg>
+        </button>
+    </div>
+    <!-- Main File Js -->
+    <script src="./script/index.js"></script>
+</body>
+</html>

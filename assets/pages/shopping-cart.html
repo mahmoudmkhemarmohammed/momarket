@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping-Cart</title>
+    <!-- Main File Css -->
+    <link rel="stylesheet" href="../../style/index.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="shopping-cart">
+        <div class="container">
+            <div class="special-heading"><i class="fa-solid fa-cart-shopping"></i> <h2>Shopping Cart</h2></div>
+            <div class="box">
+                <div class="payment-details">
+                    <h3>Payment Details</h3>
+                    <div class="inputs">
+                        <div class="credit">
+                            <input type="text" placeholder="Credit Card">
+                            <input type="text" placeholder="PayPal">
+                        </div>
+                        <div class="pay">
+                            <label for="cname">Card Holder Name</label>
+                            <input type="text" id="cname">
+                        </div>
+                        <div class="pay">
+                            <label for="cnumber">Card Number</label>
+                            <input type="text" id="cnumber">
+                        </div>
+                        <div class="date">
+                            <div class="col">
+                                <label for="date">Expiration Date</label>
+                                <div class="inp">
+                                    <input type="text" id="date">
+                                    <span>/</span>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv">
+                            </div>
+                        </div>
+                        <button>Pay <span id="total-btn">0</span></button>
+                    </div>
+                </div>
+                <div class="order">
+                    <h3>Order Summary</h3>
+                    <div class="cart" id="cart-container">
+
+                    </div>
+                    <div class="total">
+                        <h4>Total</h4>
+                        <p id="total">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main File Js -->
+    <script src="../../script/shoppingCart.js"></script>
+</body>
+</html>
